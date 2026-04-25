@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Build output
+keyboard_clean
+KeyboardClean.app/
+
+# Cert / key artifacts (in case of stray files from setup-signing.sh)
+*.pem
+*.crt
+*.key
+*.p12
+
+# IDE
+.vscode/
+.idea/
